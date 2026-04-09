@@ -1,0 +1,8 @@
+# Configuraciones locales del editor
+.vscode/
+
+# Archivos temporales de ejecución
+tempCodeRunnerFile.py
+
+# Reportes de testing de Python
+.coverage
