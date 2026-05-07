@@ -85,10 +85,6 @@ def ejercicio_6():
 
 
 def ejercicio_7():
-    """
-    Ejercicio 7: Abstract Factory.
-    Situación: Generar la UI de un Dashboard según el tema elegido (Claro/Oscuro).
-    """
     print("--- Ejercicio 7: Abstract Factory (Dashboard UI) ---")
     
     tema_elegido = "oscuro"
