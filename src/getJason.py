@@ -1,12 +1,16 @@
-# Decompiled from getJason.pyc
+# pylint: disable=invalid-name
+"""Lee un archivo JSON y extrae el valor de la clave 'token1'.
+
+Decompilado de getJason.pyc.
+"""
+
 import json
-import sys
 
-jsonfile = "sitedata.json"
-jsonkey = "token1"
+JSONFILE = "sitedata.json"
+JSONKEY = "token1"
 
-with open(jsonfile, "r") as myfile:
-    data = myfile.read()
+with open(JSONFILE, "r", encoding="utf-8") as myfile:
+    DATA = myfile.read()
 
-obj = json.loads(data)
-print(str(obj[jsonkey]))
+OBJ = json.loads(DATA)
+print(str(OBJ[JSONKEY]))
